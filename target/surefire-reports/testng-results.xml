@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="InetBankingV1" duration-ms="35395" started-at="2019-08-07T15:10:18Z" finished-at="2019-08-07T15:10:54Z">
+    <groups>
+    </groups>
+    <test name="Shopping Test" duration-ms="35395" started-at="2019-08-07T15:10:18Z" finished-at="2019-08-07T15:10:54Z">
+      <class name="com.testCases.TC_01_Login">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.testCases.TC_01_Login@6442b0a6]" name="setup" is-config="true" duration-ms="22392" started-at="2019-08-07T15:10:19Z" finished-at="2019-08-07T15:10:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.testCases.TC_01_Login@6442b0a6]" name="login" duration-ms="11374" started-at="2019-08-07T15:10:41Z" finished-at="2019-08-07T15:10:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.testCases.TC_01_Login@6442b0a6]" name="teardown" is-config="true" duration-ms="1064" started-at="2019-08-07T15:10:53Z" finished-at="2019-08-07T15:10:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.testCases.TC_01_Login -->
+    </test> <!-- Shopping Test -->
+  </suite> <!-- InetBankingV1 -->
+</testng-results>

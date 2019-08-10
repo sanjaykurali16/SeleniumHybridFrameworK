@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [InetBankingV1]">
+  <listeners>
+    <listener class-name="com.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="Shopping Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.testCases.TC_01_Login">
+        <methods>
+          <include name="setup"/>
+          <include name="login"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.testCases.TC_01_Login -->
+    </classes>
+  </test> <!-- Shopping Test(failed) -->
+</suite> <!-- Failed suite [InetBankingV1] -->
